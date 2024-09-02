@@ -19,7 +19,6 @@ namespace PdfSharp.Drawing
         /// Increasing Y values go upwards. This is only possible when drawing on a PDF page.
         /// It is not implemented when drawing on a System.Drawing.Graphics object.
         /// </summary>
-        [Obsolete("Not implemeted - yagni")]
-        Upwards = 1, // Possible, but needs a lot of case differentiation - postponed.
+        Upwards = 1,
     }
 }
